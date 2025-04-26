@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vacation</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<header>
+		<h1>Welcome to Martha's Manor</h1>
+		<nav>
+			<ul>
+				<li>
+					<a href="index.html" class="nav-link">Home</a>
+				</li>
+				<li>
+					<a href="#">Accommodations</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="contact">
+			<h2>CONTACT US</h2>
+			<div class="intro">
+				<div class="message">
+					<p>
+					Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+					</p>
+					<img src="imgs/swiss-peak.jpg" alt="swiss"/>
+				</div>
+				<form>
+					<div class="line">
+						<lable for="name" class="required">Full Name</lable>
+						<input type="text" required id='name' name='name'/>
+					</div>
+					<div class="line">
+						<lable for="email" class="required">Email</lable>
+						<input type="email" required id='email' name="email"/>
+					</div>
+					<div class="line">
+						<lable for="phone" class="required">Phone</lable>
+						<input type="phone" required id='phone' name='phone'/>
+					</div>
+					<div class="form-group">
+						<label class="required">Preferred Contact Method</label>
+						<div class="radio-group">
+							<div class="radio-option">
+								<input type="radio" id="contact-email" name="contact-method" value="email" required>
+								<label for="contact-email">Email</label>
+							</div>
+							<div class="radio-option">
+								<input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+								<label for="contact-phone">Phone</label>
+							</div>
+						</div>
+					</div>
+					<div class="line">
+						<lable for="comments" class="required">Comments</lable>
+						<input type="text" required id='comments' name='comments'/>
+					</div>
+					<button class="sub">SUBMIT</button>
+				</form>
+
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p class="cr">©Copyright © 2025 - Martha's Manor</p>
+		<p>All rights reserved</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+ul,
+li,
+h1,
+p {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+	padding: 0;
+}
+
+header {
+	background-image: url(../imgs/swiss-valley.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 390px;
+	text-align: center
+}
+
+h1 {
+	padding-top: 50px;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	overflow: hidden;
+	color: #67a5e2;
+	width: 100%;
+	margin-top: 50px;
+}
+
+.contact h2 {
+	color: #096ed0;
+	margin-top: 20px;
+	padding-left: 10%;
+}
+
+.container h2 {
+	color: #ff9800;
+}
+
+nav ul {
+	width: 100%;
+	display: flex;
+}
+
+nav ul li {
+	width: 32%;
+	margin-left: 1%;
+	text-align: center;
+}
+
+nav a {
+	color: #67a5e2;
+	font-size: 1.8rem;
+}
+
+.nav-link,
+.nav-link a,
+.nav-link a:link,
+.nav-link a:active,
+.nav-link a:visited {
+	color: #297dd1;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+main {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.overview {
+	margin: 30px 50px;
+}
+
+.desc {
+	width: 75%;
+	margin: 20px auto;
+}
+
+.card-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 96%;
+	margin: 0 auto;
+}
+
+.card-item {
+	width: 45%;
+	margin: 0 1%;
+	padding: 1%;
+	background-color: white;
+	border-radius: 5px;
+	overflow: hidden;
+	border: 1px solid #efefef;
+	box-shadow: 0 0 1rem white;
+}
+
+.card-item:hover {
+	box-shadow: 0 0 1rem #000000;
+	transform: scale(1.02);
+}
+
+.card-item p {
+	text-align: justify;
+}
+
+.img-common {
+	height: 10rem;
+	width: 100%;
+	background-size: cover;
+	background-position: left;
+}
+
+.img-common img {
+	height: 100%;
+	width: 100%;
+}
+
+.card-item h3 {
+	padding-top: 16px;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+.sub {
+	background-color: #f3ca3e;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-top: 20px;
+	padding: 15px 18%;
+	font-size: 1.4rem;
+	color: #fff;
+}
+.sub:hover {
+  box-shadow: 0 6px 12px #f3ca3e;
+}
+.sub:focus {
+  background-color: 0 0 0 3px #cfa20e;
+}
+
+.message {
+	box-sizing: border-box;
+	padding: 2%;
+	width: 30%;
+	background-color: #d4e7f6;
+}
+
+.message p:first-child {
+	font-weight: 600;
+}
+.message img {
+	width:300px;
+}
+.message p {
+	margin: 0.6rem 0;
+	font-size: 1.2rem;
+}
+
+lable,
+input {
+	padding: 0;
+	margin: 0;
+}
+
+.contact {
+	margin: 2% 0;
+}
+
+.required::before {
+	content: ' *';
+	color: #e74c3c;
+}
+
+.intro {
+	width: 80%;
+	padding: 2%;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.intro form {
+	width: 60%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.form-group {
+	width: 80%;
+	margin: 20px auto;
+	text-align: left;
+	color: #096ed0;
+	display: flex;
+	align-items: center;
+}
+
+.line {
+	width: 90%;
+	margin: 10px auto;
+	line-height: 80px;
+	overflow: hidden;
+}
+
+.radio-group {
+	display: flex;
+	gap: 20px;
+	margin-left: 20px;
+}
+
+.radio-option {
+	display: flex;
+	align-items: center;
+}
+
+.radio-option input {
+	margin-right: 8px;
+}
+
+.line lable {
+	display: inline-block;
+	float: left;
+	width: 18%;
+	border: none;
+	line-height: 50px;
+	margin-top: 15px;
+	color: #096ed0;
+}
+
+.line input {
+	width: 80%;
+	line-height: 50px;
+}
+
+footer {
+	text-align: center;
+	font-size: 1.5rem;
+	background-color: #2F4056;
+	color: #eaeaea;
+	box-sizing: border-box;
+	padding: 30px;
+}
+
+.cr {
+	margin: 10px 0;
+	font-weight: 600;
+}
